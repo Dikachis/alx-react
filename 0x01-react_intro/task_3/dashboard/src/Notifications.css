@@ -1,0 +1,15 @@
+.Notifications {
+  border: 5rem;
+  padding: 2rem;
+  border: 2px dashed red;
+  max-height: max-content;
+  font-size: large;
+}
+
+ul li[data='urgent'] {
+  color: red;
+}
+
+ul li[data='default'] {
+  color: blue;
+}
