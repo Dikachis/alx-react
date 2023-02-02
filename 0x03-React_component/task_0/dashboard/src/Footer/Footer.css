@@ -1,15 +1,8 @@
-:root {
-    --holberton-red: #e1484c;
-}
-
-.App-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.App-footer p {
-    text-align: center;
-    border-top: 3px solid var(--holberton-red);
-    padding: 16px 0;
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-style: italic;
+  border-top: thick solid #e0344a;
 }
