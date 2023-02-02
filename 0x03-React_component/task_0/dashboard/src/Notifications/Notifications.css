@@ -1,25 +1,30 @@
-.Notifications {
-  padding: 1em;
-  border: 2px dashed red;
-  position: absolute;
-  top: 1.8em;
-  right: 0;
-}
-
-.notification-header {
-  display: flex;
-  justify-content: space-between;
-}
-
 .menuItem {
-  text-align: right;
+    position: absolute;
+    top: 7px;
+    right: 7px;
 }
 
-[data-notification-type="default"] {
-  color: blue;
+.Notifications {
+	border: 3px dotted var(--holberton-red);
+	padding: 6px 12px;
+    position: absolute;
+    top: 21px;
+    right: 7px;
+	margin-top: 12px;
 }
 
-[data-urgent],
-[data-notification-type="urgent"] {
-  color: red;
+li[data-priority="default"] {
+	color: blue;
+}
+
+li[data-priority="urgent"] {
+	color: var(--holberton-red);
+}
+
+li[data-notification-type="default"] {
+	color: blue;
+}
+
+li[data-notification-type="urgent"] {
+	color: var(--holberton-red);
 }
